@@ -1,0 +1,581 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  background-color: #E5E5E5;
+}
+
+/* main {
+  margin-top: 100px;
+} */
+
+
+
+.navbar {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: 0.1rem;
+  background: #222831 !important;
+  height: 72px;
+}
+
+.navbar-collapse {
+   background: #222831 !important;
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+.navbar-nav li {
+  padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  padding-top: 0.8rem;
+  font-size: 16px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1ebba3;
+}
+
+/* mobile */
+.menu-btn_burger {
+  position: absolute;
+  right: 7px;
+  top: 20px;
+  width: 28px;
+  height: 3px;
+  background: #00ADB5; 
+}
+
+.menu-btn_burger::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  width: 28px;
+  height: 3px;
+  background: #00ADB5;
+}
+.menu-btn_burger::after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  width: 20px;
+  height: 3px;
+  background: #00ADB5;
+}
+
+.open {
+  transform: rotate(720deg);
+  background: transparent;
+}
+
+.hero {
+  height: 646px;
+  background: #222831;
+  color: #fff;
+  padding: 180px 0;
+}
+
+.hero-desc {
+  width: 50%;
+}
+
+.dev-message {
+  width: 57%;
+  margin: 0 auto;
+}
+
+.hero a:hover {
+  color: #fff;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.btn-trans {
+  border: 1px solid #00ADB5;
+  padding: 8px 24px !important;
+  /* height: 37px; */
+  border-radius: 4px;
+  color: #fff
+}
+
+.btn-trans:hover {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn-sky {
+  padding: 8px 24px;
+  background: #00ADB5;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.quality {
+  width: 288px;
+  height: 185px;
+  background: #F2F4F7;
+  box-shadow: 1px 2px 9px rgba(55, 20, 153, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  margin: 0 3px 20px auto;
+}
+
+.quality-header {
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.skill-quality {
+  margin-top: -76px;
+}
+.progress {
+  height: 8px !important;
+}
+
+.skill-card {
+  width: 216.15px;
+  height: 194px;
+  background: #F2F4F7;
+  box-shadow: 1px 2px 4px rgba(25, 61, 115, 0.1);
+  border-radius: 8px;
+    margin: 0px 2px 20px auto;
+}
+
+.number-case {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: #F2F4F7;
+  color: #222831;
+}
+
+.number-case .count {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.centered-count .count-desc {
+  margin-top: 30px;
+}
+
+.w-590 {
+  width: 590px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.count {
+  padding: 20px;
+}
+
+.dev-intro {
+  padding-top: 100px;
+}
+
+.dev-content {
+  margin: 150px auto 0 auto;
+  padding: 30px;
+}
+
+.dev-content h4 {
+  width: 65%;
+  font-size: 32px;
+}
+
+.skill-section {
+  padding: 100px 0;
+}
+
+.company {
+  padding: 100px 0;
+}
+
+.sample-companies {
+  padding-top: 100px;
+}
+
+/* reviews */
+.dark {
+  height: 319px;
+  background: #222831;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cola-btn {
+  margin-top: 20px;
+}
+
+.project-samples {
+  margin-top: -58px;
+  padding-bottom: 200px;
+}
+
+.project-samples .card {
+  width: 288px;
+  height: 266px;
+  margin: 0 2px;
+  text-align: center;
+  padding: 0 30px;
+  background: #F2F4F7;
+  box-shadow: 1px 2px 9px rgba(55, 20, 153, 0.1);
+  border-radius: 8px;
+}
+
+.card-head {
+  margin: 24px 0 25px 0;
+}
+.black {
+  color: #231F20;
+}
+.red {
+  color: #E15B29;
+}
+
+.orange {
+  color: #F7941D;
+}
+
+.project-link {
+  margin-top: 28px;
+}
+
+.l-name {
+  color: #111F4D;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.no-margin {
+  margin: 0 1px;
+  padding: 0;
+}
+
+.section-header h1, .section-header h2, .section-header h4 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* testimonials */
+.section-title p {
+  width: 516px;
+}
+
+.w-591 {
+  width: 591px;
+}
+
+.centered p {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#testimonials {
+  padding: 100px 0 40px 0;
+}
+
+
+.testimonial-card {
+  width: 552px;
+  height: 242px;
+  background: #222831;
+  border-radius: 8px;
+  color: #fff;
+  padding: 20px 15px;
+}
+.testimonials q::before, .testimonials q::after {
+  color: red;
+  font-size: 20px;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.contact-section {
+  margin: 100px 0;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+input[type="text"] {
+  height: 56px;
+}
+
+textarea {
+ height: 138px !important;
+}
+
+/* footer */
+footer {
+  height: 66px;
+  background: #222831;
+  color: #fff;
+  padding: 15px 0;
+}
+
+/* #client-reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+} */
+
+/* .page-wrap {
+  transition: 3s all ease-in-out;
+  background-color: #F2F4F7;
+  content: "";
+  position: absolute;
+  z-index: 2000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  visibility: visible;
+} */
+
+.mobile-view {
+  width: 100%;
+  position: fixed;
+  height: 100vh;
+  right: 0;
+  z-index: 2000;
+  padding-top: 20px;
+  background:  #E5E5E5;;
+  transform: translateX(110%);
+  box-shadow: -10px 0 28px -10px #ccc;
+  transition: .3s all ease-in-out;
+}
+
+.open {
+  transform: translateX(0%) !important;
+}
+
+.mobile-view-close i{
+  font-size: 25px; 
+  display: inline-block;
+  padding: 10px 5px;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.mobile-view .mobile-view-body {
+  overflow: scroll;
+  position: relative;
+  padding: 50px 0;
+}
+
+.mobile-view .clone-view {
+  padding: 0;
+  margin: 0 ;
+  list-style: none;
+}
+
+.mobile-view .clone-view  a {
+  display: block;
+  position: relative;
+  color: #222831;
+  font-size: 24px;
+}
+
+.typed-text {
+  color: #00ADB5;
+}
+
+.name {
+  overflow: hidden;
+}
+
+.cursor {
+  background: #ccc;
+  display: inline-block;
+  width: 3px;
+  margin-left: 0.1rem;
+  animation: blink 1s infinite;
+}
+
+.cursor.typing {
+  animation: none;
+}
+
+@keyframes blink {
+  0% { background: #ccc; }
+  49% { background: #ccc; }
+  50% { background: transparent; }
+  99% { background: transparent; }
+  100% { background: #ccc; }
+}
+
+
+/* media queries */
+
+@media (max-width: 767px){
+
+  .socials {
+    margin-bottom: 20px;
+  }
+
+  .client-info {
+    justify-content: space-between;
+  }
+  .name p {
+    font-size: 16px;
+  }
+  .mobile-menu i {
+    font-size: 25px;
+    color:#00ADB5;
+  }
+  .mobile-view-close i {
+    color:#00ADB5;
+  }
+  .hero {
+    height: 598px;
+    padding: 50px 0;
+  }
+  .skillz-quality {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .section-header h4, .section-header h2, .section-header h1 {
+    font-size: 24px;
+  }
+
+  .companies {
+    padding: 0 60px;
+    margin-bottom: 20px;
+  }
+
+  .centered p {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.project-samples {
+    margin-top: 20px;
+}
+
+.dev-intro {
+  padding-top: 0;
+}
+
+.dev-content {
+  margin-top: 30px;
+  padding: 0;
+}
+
+  .dev-content h4 {
+    width: 100%
+  }
+
+  .quality {
+    margin: 0 auto 20px auto;
+    text-align: center;
+  }
+  .name {
+    width: 76%;
+    margin: 0 auto;
+    font-size: 40px;
+  }
+
+  .dev-message {
+    width: 100%;
+  }
+  .dev-stack {
+    width: 93%;
+    margin: 0 auto 20px auto;
+  }
+
+  nav .btn-join {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .btn-join {
+    flex-direction: column;
+    /* width: 50%; */
+    margin: 0 auto 10px auto;
+  }
+
+  .btn-join .btn-trans {
+    margin-right: 0 !important;
+    margin-bottom: 20px;
+  }
+
+  .project-cards {
+    flex-direction: column;
+  }
+  .project-samples .card {
+    margin: 0  auto 20px auto;
+  }
+
+  /* testimonials */
+    .testimony {
+      flex-direction: column;
+    }
+  .testimonial-card {
+    width: 315px;
+    height: 246px;
+    margin: 10px auto;
+  }
+
+  .section-title p {
+    width: 100%;
+  }
+
+  .dark .centered {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .w-590 {
+    width: 100%;
+  }
+
+  .centered h1{
+    font-size: 24px;
+    padding: 0 40px;
+  }
+
+  .w-591 {
+    width: 100%;
+  }
+
+  #client-reviews {
+    height: 849px;
+  }
+
+  .centered-count {
+    margin-bottom: 20px;
+  }
+
+  .skill-card {
+    margin-bottom: 20px;
+  }
+
+  .skill-quality {
+    margin-top: 30px;
+}
+
+}
