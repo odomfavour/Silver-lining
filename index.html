@@ -39,11 +39,11 @@
           <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <div class="container">
               <a href="#" class="navbar-brand"><img src="assets/img/logo.svg" class="img-fluid"> RW</a>
-        
-              <div class="mobile-menu d-inline-block d-lg-none ml-md-0 ml-auto">
-                <i class="fa fa-bars"></i>
-              </div>
-              <div class="d-none d-lg-block">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto js-clone-nav">
                   <li class="nav-item">
                     <a href="#logout" class="nav-link">Home</a>
@@ -74,10 +74,7 @@
         
         </nav>
         <!-- end of nav -->
-        <div class="mobile-nav-toggle">
-          <i class="fa fa-bars js-toggle"></i>
-        </div>
-        <div class="mobile-nav"></div>
+      
         <!-- landing page section -->
         <main>
           <section class="hero">
