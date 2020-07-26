@@ -142,7 +142,8 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-6 wow slideInDown">
-                  <img src="assets/img/ogo.jpeg" alt="developer" class="img-fluid">
+                <img src="assets/img/dev.svg" alt="developer" class="img-fluid">
+               
                 </div>
                 <div class="col-md-6">
                   <div class="dev-content wow slideInRight">
@@ -233,7 +234,7 @@
                 <div class="col-md-3 ">
                   <div class="centered-count text-center">
                     <div class="number-case mx-auto">
-                      <p class="count">900+</p>
+                      <p class="count"><span class="counter">900</span>+</p>
                     </div>
                     <p class="count-desc">Happy Clients</p>
                   </div>
@@ -241,7 +242,7 @@
                 <div class="col-md-3">
                   <div class="centered-count text-center">
                     <div class="number-case mx-auto">
-                      <p class="count">2</p>
+                      <p class="count counter">2</p>
                     </div>
                     <p class="count-desc">Years of Experience</p>
                   </div>
@@ -249,7 +250,7 @@
                 <div class="col-md-3">
                   <div class="centered-count text-center">
                     <div class="number-case mx-auto">
-                      <p class="count">300</p>
+                      <p class="count counter">300</p>
                     </div>
                     <p class="count-desc">Awards Winning</p>
                   </div>
@@ -257,7 +258,7 @@
                 <div class="col-md-3">
                   <div class="centered-count text-center">
                     <div class="number-case mx-auto">
-                      <p class="count">900+</p>
+                      <p class="count"><span class="counter">900</span>+</p>
                     </div>
                     <p class="count-desc">Completed Projects</p>
                   </div>
@@ -549,7 +550,17 @@
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $('.counter').counterUp({
+          delay: 10,
+          time: 4000
+        });
+      });
+    </script>
     <script>
       new WOW().init();
     </script>
