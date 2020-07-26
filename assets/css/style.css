@@ -329,7 +329,7 @@ textarea {
 
 /* footer */
 footer {
-  height: 66px;
+  height: 80px;
   background: #222831;
   color: #fff;
   padding: 15px 0;
@@ -455,7 +455,7 @@ footer {
   }
   .hero {
     height: 598px;
-    padding: 50px 0;
+    padding: 90px 0;
   }
   .skillz-quality {
     flex-direction: column;
@@ -498,9 +498,7 @@ footer {
     text-align: center;
   }
 
-  main {
-    margin-top: 100px;
-  }
+ 
 
   .name {
     width: 76%;
